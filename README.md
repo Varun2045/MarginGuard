@@ -121,6 +121,11 @@ Open in Microsoft Excel to inspect:
 </p>
 
 ### 2. Institutional Intelligence Report (`./data/reports/email_preview_*.html`)
+
+<p align="center">
+  <img src="assets/intelligence_report.png" alt="MarginGuard Institutional Competitive Intelligence Report" width="580">
+</p>
+
 Double-click any generated report file to open it in your browser. It features:
 * **Header:** Institutional metadata and alert tag (no emojis or dark gradient hero).
 * **Summary KPIs:** Minimalist 4-block summary metrics.
@@ -129,10 +134,6 @@ Double-click any generated report file to open it in your browser. It features:
 * **Why It Matters:** Conservative, evidence-based strategic rationale.
 * **Recommended Review:** Suggested human actions for leadership.
 * **Data Export Box:** Reference block for the attached Excel workbook.
-
-<p align="center">
-  <img src="assets/intelligence_report.png" alt="MarginGuard Institutional Competitive Intelligence Report" width="580">
-</p>
 
 ## ⚙️ Configuration (`config.json`)
 
