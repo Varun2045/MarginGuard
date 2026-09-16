@@ -104,21 +104,35 @@ python main.py --live
 
 ### 1. Master Excel Tracker (`./data/competitor_price_tracker.xlsx`)
 Open in Microsoft Excel to inspect:
-- **Sheet 1: `Current Pricing Overview`** — Live master pricing table across all monitored competitors.
-- **Sheet 2: `Price Change History`** — Timestamped audit log:
-  - 🔴 **Soft Red:** Price Increases
-  - 🟢 **Soft Green:** Price Drops (Promotions)
-  - 🔵 **Soft Blue:** Newly Launched Services
+
+* **Sheet 1: `Current Pricing Overview`** — Live master pricing table across all monitored competitors.
+
+<p align="center">
+  <img src="assets/excel_overview.png" alt="Excel Tracker - Current Pricing Overview" width="700">
+</p>
+
+* **Sheet 2: `Price Change History`** — Timestamped audit log:
+  * 🔴 **Soft Red:** Price Increases
+  * 🟢 **Soft Green:** Price Drops (Promotions)
+  * 🔵 **Soft Blue:** Newly Launched Services
+
+<p align="center">
+  <img src="assets/excel_history.png" alt="Excel Tracker - Price Change History" width="700">
+</p>
 
 ### 2. Institutional Intelligence Report (`./data/reports/email_preview_*.html`)
 Double-click any generated report file to open it in your browser. It features:
-- **Header:** Institutional metadata and alert tag (no emojis or dark gradient hero).
-- **Summary KPIs:** Minimalist 4-block summary metrics.
-- **Data Table:** Tabular right-aligned financial deltas and percentage shifts.
-- **What Changed:** Factual, bulleted observations.
-- **Why It Matters:** Conservative, evidence-based strategic rationale.
-- **Recommended Review:** Suggested human actions for leadership.
-- **Data Export Box:** Reference block for the attached Excel workbook.
+* **Header:** Institutional metadata and alert tag (no emojis or dark gradient hero).
+* **Summary KPIs:** Minimalist 4-block summary metrics.
+* **Data Table:** Tabular right-aligned financial deltas and percentage shifts.
+* **What Changed:** Factual, bulleted observations.
+* **Why It Matters:** Conservative, evidence-based strategic rationale.
+* **Recommended Review:** Suggested human actions for leadership.
+* **Data Export Box:** Reference block for the attached Excel workbook.
+
+<p align="center">
+  <img src="assets/intelligence_report.png" alt="MarginGuard Institutional Competitive Intelligence Report" width="580">
+</p>
 
 ## ⚙️ Configuration (`config.json`)
 
