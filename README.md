@@ -1,16 +1,12 @@
 # 🛡️ MarginGuard: Autonomous Competitor Price & Menu Intelligence
 
-> **An automated, institutional-grade competitive intelligence agent** that monitors competitor service menus and pricing using headless browser agents (Playwright) + Multimodal LLMs, maintains a synchronized, color-coded master Excel workbook (`.xlsx`), and generates McKinsey/Bloomberg-style executive intelligence alerts.
-
----
+An automated, institutional-grade competitive intelligence agent that monitors competitor service menus and pricing using headless browser agents (Playwright) + Multimodal LLMs, maintains a synchronized, color-coded master Excel workbook (`.xlsx`), and generates McKinsey/Bloomberg-style executive intelligence alerts.
 
 ## 🎯 The ICP & The Problem
 
 * **Target ICP:** 50–300 person service and product businesses (regional medical aesthetics clinics, salon networks, multi-location dental practices, commercial services, and boutique agencies).
 * **The Operational Bottleneck:** Competitors do not provide APIs; pricing lives inside JavaScript-rendered SPAs, dynamic booking widgets, and interactive price tables. Manual tracking takes 4–6 hours weekly, causing businesses to discover competitor price drops and new offerings *after* losing deals.
 * **The Solution:** A lightweight Python sentinel that renders target endpoints headlessly, extracts validated pricing schemas, computes semantic deltas against historical baselines, synchronizes an Excel master workbook, and sends zero-noise intelligence alerts to leadership.
-
----
 
 ## 🏛️ System Architecture
 
@@ -28,8 +24,6 @@ flowchart TD
     
     Decision -- "No" --> Silent["Log 'No Changes' & Terminate (Zero Noise)"]
 ```
-
----
 
 ## 📁 Repository Structure
 
@@ -53,8 +47,6 @@ flowchart TD
     └── snapshots/                      # Historical JSON baselines for diffing
 ```
 
----
-
 ## ⚡ Quick Start & Installation
 
 ### 1. Prerequisites
@@ -73,8 +65,6 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
----
-
 ## 🚀 Running the Workflow
 
 ### Mode 1: Simulated Executive Demo
@@ -88,7 +78,7 @@ python main.py
 #### Expected Terminal Output:
 ```text
 ======================================================================
- [*] AI COMPETITOR PRICE & MENU MONITORING SENTINEL - RUNNING
+ [*] MARGINGUARD: COMPETITOR PRICE & MENU INTELLIGENCE - RUNNING
 ======================================================================
 
 [1/4] Baseline Snapshot Loaded: Lumina Medical Spa & Wellness (5 active services)
@@ -114,16 +104,12 @@ python main.py
 ======================================================================
 ```
 
----
-
 ### Mode 2: Live Browser Scraping
 Launches Playwright headless Chromium against the configured endpoints in `config.json`:
 
 ```bash
 python main.py --live
 ```
-
----
 
 ## 📊 Viewing the Outputs
 
@@ -144,8 +130,6 @@ Double-click any generated report file to open it in your browser. It features:
 - **Why It Matters:** Conservative, evidence-based strategic rationale.
 - **Recommended Review:** Suggested human actions for leadership.
 - **Data Export Box:** Reference block for the attached Excel workbook.
-
----
 
 ## ⚙️ Configuration (`config.json`)
 
@@ -179,8 +163,6 @@ To monitor custom competitor URLs or adjust alert parameters:
 ```
 
 *Set `"mock_mode": false` and specify `SMTP_PASSWORD` as an environment variable to dispatch live emails.*
-
----
 
 ## 📝 Assignment Documentation
 
