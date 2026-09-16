@@ -23,3 +23,5 @@ Thumbs.db
 data/screenshots/
 data/reports/
 data/*_[0-9]*.xlsx
+~$*
+data/~$*
