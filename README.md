@@ -10,20 +10,9 @@ An automated, institutional-grade competitive intelligence agent that monitors c
 
 ## 🏛️ System Architecture
 
-```mermaid
-flowchart TD
-    Config["config.json\n(Targets, Thresholds, Alert Config)"] --> Main["main.py\n(CLI Orchestrator)"]
-    Main --> Scraper["scraper.py\n(Playwright Headless Browser Agent)"]
-    Scraper --> Extractor["extractor.py\n(DOM & LLM Structured Extraction)"]
-    Extractor --> Diff["diff_engine.py\n(Delta vs Historical JSON Snapshots)"]
-    Diff --> Decision{"Price Change\nDetected?"}
-    
-    Decision -- "Yes" --> Excel["excel_manager.py\n(Update Master Overview & Color-Coded Audit Log)"]
-    Excel --> Email["email_notifier.py\n(Institutional HTML Intelligence Report + XLSX Attachment)"]
-    Email --> Snapshot["Save New Baseline to /data/snapshots/"]
-    
-    Decision -- "No" --> Silent["Log 'No Changes' & Terminate (Zero Noise)"]
-```
+<p align="center">
+  <img src="assets/architecture.png" alt="MarginGuard System Architecture Flowchart" width="480">
+</p>
 
 ## 📁 Repository Structure
 
