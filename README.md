@@ -26,7 +26,7 @@ An automated, institutional-grade competitive intelligence agent that monitors c
 ├── email_notifier.py       # Bloomberg/McKinsey-style HTML intelligence bulletin generator
 ├── main.py                 # CLI tool supporting simulation demo and live web scraping modes
 ├── requirements.txt        # Minimal Python dependencies
-├── SUBSTACK_ARTICLE.md     # Complete Substack/newsletter-style submission article
+├── substack_article.md     # Complete Substack/newsletter-style submission article
 ├── test_sites/             # Standalone local test competitor endpoints for offline/live testing
 │   ├── lumina_services.html
 │   └── serenity_pricing.html
@@ -171,4 +171,4 @@ To monitor custom competitor URLs or adjust alert parameters:
 
 ## 📝 Assignment Documentation
 
-For the complete Substack tutorial writeup and alternative capability pairings, see [**`SUBSTACK_ARTICLE.md`**](SUBSTACK_ARTICLE.md).
+For the complete Substack tutorial writeup and alternative capability pairings, see [**`substack_article.md`**](substack_article.md).
