@@ -1,12 +1,12 @@
 {
   "competitor_id": "lumina_spa",
   "competitor_name": "Lumina Medical Spa & Wellness",
-  "url": "file:///D:\\Projects\\CreWork\\test_sites/lumina_services.html",
-  "timestamp": "2026-09-16T15:07:57.247285",
+  "url": "https://lumina-medspa.example.com/pricing",
+  "timestamp": "2026-09-16T21:33:50.956239",
   "items": [
     {
       "name": "Hydrafacial Deluxe",
-      "category": "Aesthetics",
+      "category": "Facial Treatments",
       "price": 225.0,
       "currency": "USD",
       "unit": "session",
@@ -14,15 +14,15 @@
     },
     {
       "name": "Botox Cosmetic (per unit)",
-      "category": "Aesthetics",
+      "category": "Injectables",
       "price": 13.5,
       "currency": "USD",
-      "unit": "session",
+      "unit": "unit",
       "description": null
     },
     {
       "name": "Full Body Laser Hair Removal",
-      "category": "Aesthetics",
+      "category": "Laser & Body",
       "price": 299.0,
       "currency": "USD",
       "unit": "session",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Microneedling with PRP",
-      "category": "Aesthetics",
+      "category": "Skin Rejuvenation",
       "price": 450.0,
       "currency": "USD",
       "unit": "session",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Morpheus8 RF Microneedling",
-      "category": "Aesthetics",
+      "category": "Skin Rejuvenation",
       "price": 750.0,
       "currency": "USD",
       "unit": "session",

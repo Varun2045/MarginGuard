@@ -10,9 +10,16 @@ venv/
 .venv/
 env/
 
-# IDE files
+# IDE & OS files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
-# Local reports & temp files (keep sample tracker)
-data/reports/email_preview_*.html
+# Assignment / private prompt documents
+*.docx
+
+# Local run outputs & screenshots (keep sample master Excel & snapshots)
+data/screenshots/
+data/reports/
+data/*_[0-9]*.xlsx
