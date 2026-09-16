@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🛡️ MarginGuard
-### Autonomous Competitor Price & Menu Intelligence
+# MarginGuard
+### 🛡️ Autonomous Competitor Price & Menu Intelligence
 
 </div>
 
