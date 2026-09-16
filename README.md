@@ -112,13 +112,14 @@ Open in Microsoft Excel to inspect:
 </p>
 
 * **Sheet 2: `Price Change History`** — Timestamped audit log:
-  * 🔴 **Soft Red:** Price Increases
-  * 🟢 **Soft Green:** Price Drops (Promotions)
-  * 🔵 **Soft Blue:** Newly Launched Services
 
 <p align="center">
   <img src="assets/excel_history.png" alt="Excel Tracker - Price Change History" width="700">
 </p>
+
+  * 🔴 **Soft Red:** Price Increases
+  * 🟢 **Soft Green:** Price Drops (Promotions)
+  * 🔵 **Soft Blue:** Newly Launched Services
 
 ### 2. Institutional Intelligence Report (`./data/reports/email_preview_*.html`)
 
