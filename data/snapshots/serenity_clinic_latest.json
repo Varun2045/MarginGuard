@@ -1,0 +1,32 @@
+{
+  "competitor_id": "serenity_clinic",
+  "competitor_name": "Serenity Skin & Laser Clinic",
+  "url": "file:///D:\\Projects\\CreWork\\test_sites/serenity_pricing.html",
+  "timestamp": "2026-09-16T15:07:59.155013",
+  "items": [
+    {
+      "name": "Clear & Brilliant Laser",
+      "category": "Aesthetics",
+      "price": 320.0,
+      "currency": "USD",
+      "unit": "session",
+      "description": null
+    },
+    {
+      "name": "Dermal Fillers (1ml)",
+      "category": "Aesthetics",
+      "price": 650.0,
+      "currency": "USD",
+      "unit": "session",
+      "description": null
+    },
+    {
+      "name": "IPL Photofacial",
+      "category": "Aesthetics",
+      "price": 275.0,
+      "currency": "USD",
+      "unit": "session",
+      "description": null
+    }
+  ]
+}

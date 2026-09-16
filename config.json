@@ -1,0 +1,43 @@
+{
+  "app_name": "Competitor Price & Menu Sentinel",
+  "version": "1.0.0",
+  "business_info": {
+    "name": "Apex Wellness & Aesthetics",
+    "currency": "USD",
+    "owner_email": "founder@apexwellness.com",
+    "notification_threshold_pct": 5.0
+  },
+  "competitors": [
+    {
+      "id": "lumina_spa",
+      "name": "Lumina Medical Spa & Wellness",
+      "url": "file:///D:\\Projects\\CreWork\\test_sites/lumina_services.html",
+      "category": "Medical Spa / Aesthetics"
+    },
+    {
+      "id": "serenity_clinic",
+      "name": "Serenity Skin & Laser Clinic",
+      "url": "file:///D:\\Projects\\CreWork\\test_sites/serenity_pricing.html",
+      "category": "Laser & Skincare"
+    }
+  ],
+  "llm_config": {
+    "provider": "gemini",
+    "model": "gemini-2.0-flash",
+    "temperature": 0.1
+  },
+  "email_config": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "alerts@apexwellness.com",
+    "sender_name": "Competitor Sentinel Bot",
+    "recipient_email": "owner@apexwellness.com",
+    "mock_mode": true
+  },
+  "storage": {
+    "snapshots_dir": "./data/snapshots",
+    "excel_path": "./data/competitor_price_tracker.xlsx",
+    "reports_dir": "./data/reports"
+  }
+}

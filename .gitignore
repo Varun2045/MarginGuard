@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Local reports & temp files (keep sample tracker)
+data/reports/email_preview_*.html
