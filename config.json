@@ -1,5 +1,5 @@
 {
-  "app_name": "Competitor Price & Menu Sentinel",
+  "app_name": "MarginGuard",
   "version": "1.0.0",
   "business_info": {
     "name": "Apex Wellness & Aesthetics",
@@ -31,7 +31,7 @@
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587,
     "sender_email": "alerts@apexwellness.com",
-    "sender_name": "Competitor Sentinel Bot",
+    "sender_name": "MarginGuard Intelligence",
     "recipient_email": "owner@apexwellness.com",
     "mock_mode": true
   },

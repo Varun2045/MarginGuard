@@ -1,4 +1,4 @@
-# Automated Competitor Price & Menu Sentinel with Browser Agents, Excel Sync, and Executive Email Alerts
+# MarginGuard: Automated Competitor Price & Menu Intelligence for Mid-Market Enterprises
 
 > **Subtitle:** How 50–300 person businesses can automatically track competitor pricing shifts across messy JS booking widgets, keep a synchronized master Excel sheet, and get zero-noise executive alerts before margin leaks happen.
 

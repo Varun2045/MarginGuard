@@ -25,7 +25,7 @@ def run_simulation():
     updating the Excel tracker and sending the HTML email digest.
     """
     print("=" * 70)
-    print(" [*] AI COMPETITOR PRICE & MENU MONITORING SENTINEL - RUNNING")
+    print(" [*] MARGINGUARD: COMPETITOR PRICE & MENU INTELLIGENCE - RUNNING")
     print("=" * 70)
     
     with open("config.json", "r", encoding="utf-8") as f:
@@ -142,7 +142,7 @@ async def run_live():
         email_notifier.send_alert(diff_reports, excel_attachment_path=config["storage"]["excel_path"])
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description="AI Competitor Price & Menu Monitoring Sentinel")
+    parser = argparse.ArgumentParser(description="MarginGuard - Autonomous Competitor Price & Menu Intelligence")
     parser.add_argument("--live", action="store_true", help="Run live browser scrape against URLs in config.json")
     args = parser.parse_args()
 

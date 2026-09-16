@@ -1,4 +1,4 @@
-# 🔍 Competitor Price & Menu Sentinel
+# 🛡️ MarginGuard: Autonomous Competitor Price & Menu Intelligence
 
 > **An automated, institutional-grade competitive intelligence agent** that monitors competitor service menus and pricing using headless browser agents (Playwright) + Multimodal LLMs, maintains a synchronized, color-coded master Excel workbook (`.xlsx`), and generates McKinsey/Bloomberg-style executive intelligence alerts.
 
