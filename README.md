@@ -63,8 +63,8 @@ flowchart TD
 
 ### 2. Clone and Install Dependencies
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
-cd <REPO_NAME>
+git clone https://github.com/Varun2045/MarginGuard.git
+cd MarginGuard
 
 # Install Python requirements
 pip install -r requirements.txt
