@@ -1,26 +1,25 @@
 <div align="center">
 
-# MarginGuard
+# 🛡️ MarginGuard
+### Autonomous Competitor Price & Menu Intelligence
 
 </div>
 
-### 🛡️ Autonomous Competitor Price & Menu Intelligence
-
 An automated, institutional-grade competitive intelligence agent that monitors competitor service menus and pricing using headless browser agents (Playwright) + Multimodal LLMs, maintains a synchronized, color-coded master Excel workbook (`.xlsx`), and generates McKinsey/Bloomberg-style executive intelligence alerts.
 
-## 🎯 The ICP & The Problem
+<h2 align="center">🎯 The ICP & The Problem</h2>
 
 * **Target ICP:** 50–300 person service and product businesses (regional medical aesthetics clinics, salon networks, multi-location dental practices, commercial services, and boutique agencies).
 * **The Operational Bottleneck:** Competitors do not provide APIs; pricing lives inside JavaScript-rendered SPAs, dynamic booking widgets, and interactive price tables. Manual tracking takes 4–6 hours weekly, causing businesses to discover competitor price drops and new offerings *after* losing deals.
 * **The Solution:** A lightweight Python sentinel that renders target endpoints headlessly, extracts validated pricing schemas, computes semantic deltas against historical baselines, synchronizes an Excel master workbook, and sends zero-noise intelligence alerts to leadership.
 
-## 🏛️ System Architecture
+<h2 align="center">🏛️ System Architecture</h2>
 
 <p align="center">
   <img src="assets/architecture.png" alt="MarginGuard System Architecture Flowchart" width="480">
 </p>
 
-## 📁 Repository Structure
+<h2 align="center">📁 Repository Structure</h2>
 
 ```text
 ├── config.json              # Competitor targets, notification thresholds, and storage paths
@@ -42,7 +41,7 @@ An automated, institutional-grade competitive intelligence agent that monitors c
     └── snapshots/                      # Historical JSON baselines for diffing
 ```
 
-## ⚡ Quick Start & Installation
+<h2 align="center">⚡ Quick Start & Installation</h2>
 
 ### 1. Prerequisites
 - Python 3.10+ (Tested on Python 3.13)
@@ -60,7 +59,7 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-## 🚀 Running the Workflow
+<h2 align="center">🚀 Running the Workflow</h2>
 
 ### Mode 1: Simulated Executive Demo
 Simulates a week-over-week competitor pricing update (price hike, price drop, new offering, and discontinued item) to demonstrate delta detection, Excel formatting, and report generation:
@@ -106,7 +105,7 @@ Launches Playwright headless Chromium against the configured endpoints in `confi
 python main.py --live
 ```
 
-## 📊 Viewing the Outputs
+<h2 align="center">📊 Viewing the Outputs</h2>
 
 ### 1. Master Excel Tracker (`./data/competitor_price_tracker.xlsx`)
 Open in Microsoft Excel to inspect:
@@ -142,7 +141,7 @@ Double-click any generated report file to open it in your browser. It features:
 * **Recommended Review:** Suggested human actions for leadership.
 * **Data Export Box:** Reference block for the attached Excel workbook.
 
-## ⚙️ Configuration (`config.json`)
+<h2 align="center">⚙️ Configuration (`config.json`)</h2>
 
 To monitor custom competitor URLs or adjust alert parameters:
 
@@ -175,6 +174,6 @@ To monitor custom competitor URLs or adjust alert parameters:
 
 *Set `"mock_mode": false` and specify `SMTP_PASSWORD` as an environment variable to dispatch live emails.*
 
-## 📝 Assignment Documentation
+<h2 align="center">📝 Assignment Documentation</h2>
 
 For the complete Substack tutorial writeup and alternative capability pairings, see [**`substack_article.md`**](substack_article.md).
